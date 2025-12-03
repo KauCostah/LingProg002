@@ -3,13 +3,13 @@ package atividade;
 class PessoaFisica extends Pessoa {
     private String cpf;
     
-    // Construtor
+    
     public PessoaFisica(String nome, int idade, String endereco, String cpf) {
         super(nome, idade, endereco);
         this.cpf = cpf;
     }
     
-    // Getter e Setter para CPF
+    
     public String getCPF() {
         return cpf;
     }
@@ -18,7 +18,7 @@ class PessoaFisica extends Pessoa {
         this.cpf = cpf;
     }
     
-    // Implementação do método abstrato
+   
     @Override
     public void showData() {
         System.out.println("=== DADOS DA PESSOA FÍSICA ===");
@@ -29,4 +29,5 @@ class PessoaFisica extends Pessoa {
         System.out.println("===============================");
     }
 }
+
 
